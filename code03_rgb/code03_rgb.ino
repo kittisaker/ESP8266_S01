@@ -22,7 +22,7 @@ void duo(int firstLed, int secondLed){
     delay(2);
   }
   analogWrite(firstLed, 0);
-   analogWrite(secondLed, 0);
+  analogWrite(secondLed, 0);
 }
 
 void all(int firstLed, int secondLed, int thirdLED){
